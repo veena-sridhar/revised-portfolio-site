@@ -1,0 +1,128 @@
+#logo {
+  height: 1.5em;
+  width: 1.5em;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.nav-wrapper {
+  opacity: 0.9;
+}
+
+#home {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.profile-image {
+  height: 10em;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: 8%;
+  z-index: 900;
+}
+
+.background-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about {
+  margin-right: 25%;
+  margin-left: 25%;
+  font-size: 1.5em;
+  color: white;
+  z-index: 900;
+  opacity: 0.99;
+}
+
+.contact-icon {
+  margin-top: 0.5em;
+  margin-right: 30px;
+  z-index: 900;
+  opacity: 0.99;
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+.fa-github-alt:hover {
+  color: #551A8B;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+  cursor: pointer;
+}
+
+.fa-twitter:hover {
+  color: #55acee;
+  cursor: pointer;
+}
+
+.title-container {
+  opacity: 0.9;
+  height: 100vh;
+  margin-top: -2.1em;
+}
+
+.title {
+  padding-top: 1em;
+  color: white;
+}
+
+.icon {
+  color: white;
+  margin-top: 0.5em;
+}
+
+/* label color */
+ .input-field label {
+   color: white;
+   font-size: 1.2em;
+   margin-top: 0.5em;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: white;
+   font-size: 1.2em;
+   margin-top: 0.5em;
+ }
+
+ .input-field textarea + label {
+   color: white;
+   font-size: 1.2em;
+   margin-top: 0.5em;
+ }
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid white;
+   box-shadow: 0 1px 0 0 white;
+   font-size: 1.2em;
+   margin-top: 0.5em;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid white;
+   box-shadow: 0 1px 0 0 white;
+   font-size: 1.2em;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid white;
+   box-shadow: 0 1px 0 0 white;
+   font-size: 1.2em;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: white;
+   font-size: 1.2em;
+   margin-top: 0.5em;
+ }
+
+

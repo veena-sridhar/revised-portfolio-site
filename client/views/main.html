@@ -1,15 +1,39 @@
 <div id="main">
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">VEENA SRIDHAR</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#work">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper indigo darken-4 col s12">
+        <a href="#!" class="brand-logo"><img id="logo" src="vs-logo-white.svg" /></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/#/main">Home</a></li>
+          <li><a href="/#/work">Portfolio</a></li>
+          <li><a href="/#/about">About</a></li>
+          <li><a href="/#/blog">Blog</a></li>
+          <li><a href="/#/contact">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/#/main">Home</a></li>
+          <li><a href="/#/work">Portfolio</a></li>
+          <li><a href="/#/about">About</a></li>
+          <li><a href="/#/blog">Blog</a></li>
+          <li><a href="/#/contact">Contact</a></li>
+       </ul>
+      </div>
+    </nav>
+  </div>
+  <section id="home" class="indigo darken-4" ng-init="addBubbles()">
+    <svg class="background-wrapper">
+      <div class="valign-wrapper">
+        <img class="profile-image circle responsive-img" src="profile-image.jpg">
+      </div>
+      <div class="center-align">
+        <p class="about">Hi! My name is Veena Sridhar, and I'm a full stack software engineer living in the San Francisco Bay Area.</p>
+        <p class="about">I have a huge range of skills, starting from Javascript and AngularJS to PostgreSQL, NodeJS, and some Python.</p>
+        <a href="https://github.com/veena-sridhar" target="_blank"><i class="contact-icon fa fa-4x fa-github-alt" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/veenasridhar" target="_blank"><i class="contact-icon fa fa-4x fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/veena_m_sridhar" target="_blank"><i class="contact-icon fa fa-4x fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </svg>
+  </section>
 
 </div>
